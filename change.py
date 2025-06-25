@@ -23,7 +23,7 @@ pennies = cents // 1
 cents = cents % 1
 
 print('Your change will be:')
-print('Q': + quarters)
-print(D: 'dimes')
-print('N:' dimes)
+print('Q:', quarters)
+print('D:', dimes)
+print('N:', nickels)
 print('P:', pennies)
