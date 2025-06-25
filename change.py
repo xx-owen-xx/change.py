@@ -4,7 +4,7 @@
 # prompt user to enter an intiger between 0-99, outpout the fewest number of coins that would get you that monitary value (input)
 
 # calls for input to be an integer and breaks down the input to be its own line.
-cents = int(input('Please enter an amount of cents less than a dollar.\n'))
+cents = int(input('Please enter an amount in cents less than a dollar.\n'))
 
 # divides our how many times 25 will go into our input
 quarters =  cents // 25
